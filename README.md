@@ -9,7 +9,7 @@ Android 4.0.3+ (API Level 15+)
 ## Installation
 
 ```sh
-cordova plugin add cordova-plugin-tts
+cordova plugin add cordova-text-to-speach
 ```
 
 ## Usage
@@ -61,3 +61,4 @@ declare namespace TTS {
     function openInstallTts(): Promise<void>;
 }
 ```
+Forked from https://github.com/vilic/cordova-plugin-tts
